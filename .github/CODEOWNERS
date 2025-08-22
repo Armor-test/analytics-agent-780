@@ -1,0 +1,40 @@
+# CODEOWNERS file for analytics-agent-780
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-notifications @Armor-test/dept-ui @Armor-test/squad-reporting
+
+# Directory ownership
+/pkg/ @Armor-test/dept-api @Armor-test/grp-payments @Armor-test/squad-database
+/styles/ @Armor-test/squad-qa @Armor-test/team-research
+/lib/ @Armor-test/unit-cloud @Armor-test/squad-product @Armor-test/grp-search
+/data/ @Armor-test/squad-cache @Armor-test/squad-ux
+/dist/ @Armor-test/dept-automation @Armor-test/team-research @Armor-test/grp-ui
+/vendor/ @Armor-test/squad-database @Armor-test/team-core @Armor-test/grp-payments
+/third_party/ @Armor-test/dept-ui @Armor-test/squad-cache
+/controllers/ @Armor-test/unit-design @Armor-test/dept-notifications @Armor-test/dept-automation
+/core/ @Armor-test/team-security @Armor-test/grp-storage @Armor-test/squad-research
+/shared/ @Armor-test/squad-database @Armor-test/team-notifications @Armor-test/grp-payments
+/common/ @Armor-test/squad-mobile @Armor-test/team-notifications
+/security/ @Armor-test/dept-notifications @Armor-test/dept-ui
+/extensions/ @Armor-test/dept-security @Armor-test/dept-test @Armor-test/dept-identity
+
+# File type ownership
+*.cs @Armor-test/unit-devops @Armor-test/team-notifications @Armor-test/dept-logging
+*.html @Armor-test/dept-notifications @Armor-test/team-governance @Armor-test/squad-frontend
+*.yml @Armor-test/squad-cloud @Armor-test/squad-ux @Armor-test/team-logging
+*.scss @Armor-test/squad-ml @Armor-test/squad-search @Armor-test/squad-payments
+*.py @Armor-test/team-security @Armor-test/team-core @Armor-test/team-reporting
+*.sh @Armor-test/squad-search @Armor-test/team-governance
+*.config @Armor-test/team-research @Armor-test/squad-cache
+*.ini @Armor-test/team-security @Armor-test/squad-performance
+*.jsx @Armor-test/team-core @Armor-test/squad-apps
+*.yaml @Armor-test/squad-database @Armor-test/dept-reporting
+*.java @Armor-test/unit-governance @Armor-test/team-logging @Armor-test/dept-test
+*.lock @Armor-test/dept-release @Armor-test/grp-storage @Armor-test/squad-search
+*.cpp @Armor-test/team-notifications @Armor-test/grp-payments @Armor-test/team-frontend
+
+# Security and special files
+Dockerfile @Armor-test/devops @Armor-test/infra
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
